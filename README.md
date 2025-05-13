@@ -33,5 +33,16 @@
 
 ---
 
-## 📂 Project Structure
+## 📸 App Screenshots
 
+### 1. Login Page
+<img src="https://github.com/amritheshsiva/final_yr_project/blob/main/login_page.png" alt="Login Page" width="400">
+
+### 2. User Location
+<img src="https://github.com/amritheshsiva/final_yr_project/blob/main/user_location.png" alt="User Location" width="400">
+
+### 3. Disease Prediction 1
+<img src="https://github.com/amritheshsiva/final_yr_project/blob/main/prediction1.png" alt="Prediction 1" width="400">
+
+### 4. Disease Prediction 2
+<img src="https://github.com/amritheshsiva/final_yr_project/blob/main/prediction2.png" alt="Prediction 2" width="400">
