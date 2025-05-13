@@ -1,6 +1,6 @@
 # Drone Disease Detection App
 
-** Drone Disease Detection App** for identifying and mapping coconut tree diseases using a drone integrated with machine learning.
+**Drone Disease Detection App** for identifying and mapping coconut tree diseases using a drone integrated with machine learning.
 
 ---
 
