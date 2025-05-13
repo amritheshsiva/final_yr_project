@@ -1,16 +1,38 @@
-# drone_project
+# 🌐 Drone Disease Detection App
 
-A new Flutter project.
+Welcome to the **Drone Disease Detection App** (`drone_project`) – a smart solution for identifying and mapping coconut tree diseases using a drone integrated with machine learning.
 
-## Getting Started
+---
 
-This project is a starting point for a Flutter application.
+## 🚀 Features
 
-A few resources to get you started if this is your first Flutter project:
+- 🔒 **User Authentication:** Secure login using Firebase Authentication.
+- 🌍 **Location Tracking:** Automatically fetches user location using OpenStreetMap API.
+- 📸 **Disease Detection:** Drone captures images and detects diseases using a trained ML model.
+- 🗺️ **Real-time Mapping:** Detected diseases are mapped with their locations in Firebase.
+- 🖼️ **Prediction Images:** Displays images of detected diseases with details in the app.
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+---
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## 🛠️ Technologies Used
+
+- **Frontend:** Flutter (Dart)
+- **Backend:** Firebase Authentication, Firebase Realtime Database
+- **Location Services:** OpenStreetMap API
+- **Machine Learning:** Image classification for disease detection (on drone hardware)
+- **Hardware:** Drone with camera for image capture
+
+---
+
+## 📸 How It Works
+
+1. **User Login:** User logs in using Firebase Authentication.
+2. **Location Fetching:** The app fetches the user's location using OpenStreetMap API and displays it on the Map tab.
+3. **Disease Detection:** The drone, equipped with a camera and ML model, captures images of coconut trees.
+4. **Data Upload:** If a disease is detected, the drone stores the disease name, location, and captured image in Firebase.
+5. **Prediction Display:** The app retrieves disease data and images from Firebase and displays them in the Prediction tab.
+
+---
+
+## 📂 Project Structure
+
