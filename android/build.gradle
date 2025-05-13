@@ -1,0 +1,38 @@
+buildscript {
+    repositories { // ✅ Add this block
+        google()
+        mavenCentral()
+        gradlePluginPortal() // ✅ Ensures plugin dependencies work correctly
+    }
+
+    dependencies {
+  //      classpath 'com.android.tools.build:gradle:8.3.0'  // ✅ Use latest Gradle plugin
+        classpath 'com.android.tools.build:gradle:8.13'  // ✅ Use latest Gradle plugin
+        classpath 'com.google.gms:google-services:4.3.15' // ✅ Google Services
+        classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:1.8.0" // ✅ Ensure correct Kotlin plugin
+
+    }
+}
+
+allprojects {
+    repositories {
+        google()
+        mavenCentral()
+    }
+}
+
+subprojects {
+    project.evaluationDependsOn(":app")
+}
+/*
+tasks.register<Delete>("clean") {
+    delete(rootProject.layout.buildDirectory)
+}
+*/
+tasks.register("clean", Delete) {
+    delete rootProject.layout.buildDirectory
+}
+
+
+
+ext.kotlin_version = "1.7.10"

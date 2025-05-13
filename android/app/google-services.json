@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "921447527285",
+    "firebase_url": "https://cocodata-bab89-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "cocodata-bab89",
+    "storage_bucket": "cocodata-bab89.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:921447527285:android:9cf67ff7b300d1326bd93c",
+        "android_client_info": {
+          "package_name": "com.example.drone_project"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBBPsBBZDwB-lpLZr7wKHGkUbAMQ5xkjms"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
